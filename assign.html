@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>You can save this information, to any datatype.</head>
+<style>
+body
+{ 
+background-color: #92a8d1;
+
+}
+textarea{
+width:50%;
+height:150px;
+border-radius:50px;
+}
+
+input[type="file"],select{
+
+width:50%;
+box-sizing: border-box;
+}
+input[type=text],select{
+width:50%;
+box-sizing: border-box;
+}
+input[type=number],select{
+width:50%;
+box-sizing: border-box;
+}
+input[type=reset],select{
+border-radius:50px;
+background-color:#008CBA;
+position: relative;
+left:250px;
+box-sizing: border-box;
+justify-content: center;
+text-align: center;
+}
+button[type=submit],select{
+border-radius:50px;
+width:60px;
+position: relative;
+left:400px;
+background-color:#008CBA;
+box-sizing: border-box;
+align-items: center;
+}
+
+
+ </style>
+<body>
+<form>
+<br><label>PRODUCT NAME</label><br>
+<input type="text" id="PRODUCT NAME">
+<br><br><label> UNIT OF MEASUREMENT</label><br>
+<input type="text" id="UNIT OF MEASUREMENT">
+<br><br><label>PRICE</label><br>
+<input type="number" id="PRICE"><br></br>
+<label>PRODUCT-IMAGE</label><br>
+ <input type="file" id="PRODUCT-IMAGE"  accept=".jpg, .jpeg, .png">
+<br><br><label>PRODUCT DESCRIPTION</label><br>
+<textarea> </textarea>
+<br> <button type="submit" value="Submit" onclick="alert('sucessfuly saved')">save</button> 
+<input type="reset">
+
+</form>
+
+</body>
+</html>
